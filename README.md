@@ -57,7 +57,7 @@ only) application for the device. This is not the case for the Badge, though.
 The main application is the launcher app, i.e. the app with the menu that
 starts by default. The `make install` target of the Makefile copies our newly
 created app into the
-[appfs](https://github.com/badgeteam/esp32-component-appfThe Makefile cs)
+[appfs](https://github.com/badgeteam/esp32-component-appf The Makefile cs)
 instead of overwriting the launcher. Once copied to the appfs, the launcher can
 find your app and it should appear in the apps menu.
 
